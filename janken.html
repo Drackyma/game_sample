@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>占い</title>
+    <link href="Janken.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>このページではじゃんけんをすることができます! </h1>
+    <div>
+        <label for="janken">じゃんけんの手を入力してください（グー、チョキ、パー）: </label>
+        <input type="text" id="janken" name="janken">
+        <button onclick="determineJanken()">じゃんけんする</button>
+    </div>
+    <div id="computerHand"></div>
+    <div id="yourHand"></div>
+    <div id="result"></div>
+    
+    <script src="janken.js"></script>
+
+
+    <a href="index.html">ホームへ戻る</a>
+</body>
+</html>

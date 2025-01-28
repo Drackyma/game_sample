@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>占い</title>
+    <link href="futuen.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>このページでは占いをすることができます! </h1>
+    <div>
+        <label for="birthday">あなたの誕生日を入力してください:(3月9日なら→0309)</label>
+        <input type="text" id="birthday" name="birthday">
+        <button onclick="showFortune()">占う</button>
+    </div>
+    <div id="result"></div>
+    <div id="detail"></div>
+    <script src="fortune.js"></script>
+
+
+    <a href="index.html">ホームへ戻る</a>
+</body>
+</html>
